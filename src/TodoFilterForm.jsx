@@ -10,7 +10,7 @@ export function TodoFilterForm({ filterName, setFilterName, hide, setHide }) {
           onChange={(e) => setFilterName(e.target.value)}
         />
       </div>
-      <label>
+      <label className="hide-completed">
         <input
           type="checkbox"
           checked={hide}
