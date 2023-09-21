@@ -79,7 +79,7 @@ function App() {
         deleteTodo,
       }}
     >
-      <NewTodoForm addNewTodo={addNewTodo} />
+      <NewTodoForm />
       <TodoFilterForm
         filterName={filterName}
         setFilterName={setFilterName}
