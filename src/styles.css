@@ -55,7 +55,6 @@ body {
 }
 
 .list-item-label:hover > [data-list-item-text] {
-  color: #333;
   text-decoration: line-through;
 }
 
